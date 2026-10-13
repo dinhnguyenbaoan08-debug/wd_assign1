@@ -1,0 +1,8 @@
+#slideImage {
+    animation: slideIn 1.5s ease-out;
+}
+
+@keyframes slideIn {
+    from { transform: translateX(-50px); opacity: 0; }
+    to { transform: translateX(0); opacity: 1; }
+}
